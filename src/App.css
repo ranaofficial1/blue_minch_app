@@ -31,7 +31,6 @@
   height: 905px;
 }
 .card-heading{
-  
   padding: 0px 31px;
   line-height: 35px;
   color: white;
@@ -39,6 +38,9 @@
 .card-heading-bg{
   background: linear-gradient(rgba(109, 154, 186, 0.2), rgba(23, 51, 72, 0.7)) !important;
   margin-top: -5.4rem;
+}
+.pt-133{
+  padding-top: 133px;
 }
 p {
   color: var(--blue);

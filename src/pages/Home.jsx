@@ -5,6 +5,7 @@ import { posterData, posterPoem } from "../data/homepage";
 import poemimg from ".././assets/poemimg.png";
 import minchIcon from ".././assets/Minch Icon.png";
 import homepos2 from '../assets/homepos2.jpg'
+import homepos3 from '../assets/homepos3.jpg'
 import infity from '../assets/infinity.png'
 import { Link } from "react-router-dom";
 
@@ -72,20 +73,56 @@ const Home = () => {
       {/* /card */}
       <div className="cardBg">
         <div className="container">
-            <div className="row" style={{height: "639px"}}>
-              <div className="col-lg-6 col-md-6 col-sm-12 col-12">
-              <div class="card border-0" style={{width: "25rem"}}>
-                <img src={homepos2} class="card-img-top" alt="..." />
-                <div className="card-heading-bg">
-                  <p className="fontSize-3 fw-semibold text-center card-heading">The Legendary Blue Men of Minch </p>
-                </div>
-                
-                <div class="card-body bg-blue">
-                  {/* <h5 class="card-title">The Legendary Blue Men of Minch </h5> */}
-                  <p class="text-white">In Scottish lore, the Blue Men of Minch are mythical people who live below the waves. They have great strength, blue skin, and the ability to swim like fish through the roughest seas. Their magical powers include summoning storms and sometimes changing form. They speak in rhymes. and create enchanting music that is hard to resist.</p>
-                  <a href="#" class="btn btn-primary text-white">Read More</a>
+            <div className="row pt-133" style={{height: "639px"}}>
+              <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                <div class="card border-0" style={{width: "25rem"}}>
+                  <img src={homepos2} class="card-img-top" alt="..." />
+                  <div className="card-heading-bg">
+                    <p className="fontSize-3 fw-semibold text-center card-heading">The Legendary Blue Men of Minch </p>
+                  </div>
+                  
+                  <div class="card-body bg-blue">
+                    {/* <h5 class="card-title">The Legendary Blue Men of Minch </h5> */}
+                    <p class="text-white pt-4">In Scottish lore, the Blue Men of Minch are mythical people who live below the waves. They have great strength, blue skin, and the ability to swim like fish through the roughest seas. Their magical powers include summoning storms and sometimes changing form. They speak in rhymes. and create enchanting music that is hard to resist.</p>
+                    <div className="text-center mt-5">
+                    <a href="#" class="btn btn-primary text-white text-center">Read More</a>
+                    </div>
+                  </div>
                 </div>
               </div>
+              {/* second card */}
+              <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                <div class="card border-0" style={{width: "25rem"}}>
+                  <img src={homepos1} class="card-img-top" alt="..." />
+                  <div className="card-heading-bg">
+                    <p className="fontSize-3 fw-semibold text-center card-heading">The Legendary Blue Men of Minch </p>
+                  </div>
+                  
+                  <div class="card-body bg-blue">
+                    {/* <h5 class="card-title">The Legendary Blue Men of Minch </h5> */}
+                    <p class="text-white pt-4">In Scottish lore, the Blue Men of Minch are mythical people who live below the waves. They have great strength, blue skin, and the ability to swim like fish through the roughest seas. Their magical powers include summoning storms and sometimes changing form. They speak in rhymes. and create enchanting music that is hard to resist.</p>
+                    <div className="text-center mt-5">
+                    <a href="#" class="btn btn-primary text-white text-center">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* third card */}
+              <div className="col-lg-4 col-md-4 col-sm-12 col-12">
+                <div class="card border-0" style={{width: "25rem"}}>
+                  <img src={homepos3} class="card-img-top" alt="..." />
+                  <div className="card-heading-bg">
+                    <p className="fontSize-3 fw-semibold text-center card-heading">The Legendary Blue Men of Minch </p>
+                  </div>
+                  
+                  <div class="card-body bg-blue">
+                    {/* <h5 class="card-title">The Legendary Blue Men of Minch </h5> */}
+                    <p class="text-white pt-4">In Scottish lore, the Blue Men of Minch are mythical people who live below the waves. They have great strength, blue skin, and the ability to swim like fish through the roughest seas. Their magical powers include summoning storms and sometimes changing form. They speak in rhymes. and create enchanting music that is hard to resist.</p>
+                    <div className="text-center mt-5">
+                    <a href="#" class="btn btn-primary text-white text-center">Read More</a>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
         </div>
